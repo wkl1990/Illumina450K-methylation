@@ -1,4 +1,4 @@
-# illumina-450K-analysis
-This R code uses minfi and wateRmelon preprocess the ILLUMINA 450K from idat to filtered and normalized beta-value.
-The analysis includes reading 450K idat files, samples and probes filtered by detectionP and Nbead, type II probes normalized using BMIQ,   removing cross and snp probes using prepared list, and QC plots which includes PCA, PVCA and so on. Maybe it is not perfect now!
+# Illumina 450K methylation analysis
+This R code uses [minfi](http://bioconductor.org/packages/release/bioc/html/minfi.html) and [wateRmelon]https://bioconductor.org/packages/release/bioc/html/wateRmelon.html) preprocess the ILLUMINA 450K from idat to filtered and normalized beta-value.
+The analysis includes reading 450K idat files, samples and probes filtered by detectionP and Nbead, type II probes normalized using BMIQ,   removing cross and snp probes using prepared list, and QC plots which includes PCA, PVCA and so on. Maybe it is not perfect now! More details in Chinese could be found [here](http://www.biotrainee.com/thread-237-1-1.html). Another useful package [ChAMP](https://bioconductor.org/packages/release/bioc/html/ChAMP.html) also could be used for Illumina450K analysis.
 The demo data can be download from NCBI/GSE66210 (https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE66210).
