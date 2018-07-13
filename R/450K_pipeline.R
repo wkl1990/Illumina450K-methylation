@@ -2,7 +2,7 @@
 # Describe: use appropriate packages to preprocess 450K idat
 # Environment: R 3.2.2
 # Author: Wang Kangli (SKLMG)
-# Data: 2016-06-28
+# Date: 2016-06-28
 ####
 
 ###Reading 450K idat files with the minfi package (idat path and basename needed)
